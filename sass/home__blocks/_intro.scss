@@ -1,0 +1,63 @@
+.intro {
+  background-color: rgb(19, 18, 18);
+  // background-image: url(/rasmlar/home__bitmap.png);
+
+  &__wrapper {
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    gap: 150px;
+  }
+
+
+  &__product {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+
+  &__title {
+    max-width: 400px;
+    padding: 24px 0;
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__text {
+    padding-bottom: 60px;
+    max-width: 350px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.75;
+  }
+
+  &__btn {
+    background: #bf6530;
+    padding: 15px 30px;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+    &:hover {
+      background: #fbaf85;
+      transition: all 0.5s ease;
+    }
+  }
+}

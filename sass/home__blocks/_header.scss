@@ -1,0 +1,28 @@
+.header {
+  background-color: rgb(19, 18, 18);
+  &__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 50px;
+    border-bottom: 1px solid white;
+  }
+
+  &__list {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+  }
+  &__link {
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 25px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #ffffff;
+    &:hover{
+        color: #D87D4A;
+        transition: all 0.8s linear;
+    }
+  }
+}

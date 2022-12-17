@@ -1,0 +1,44 @@
+.airpodd {
+  background-color: #fff;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__right {
+    width: 560px;
+    padding: 101px 198px 101px 95px;
+
+    background: #f1f1f1;
+    border-radius: 8px;
+  }
+
+  &__title {
+    margin-bottom: 64px;
+    width: 245px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+
+  &__btn {
+    padding: 15px 30px;
+  
+    border: 1px solid grey;
+    text-transform: uppercase;
+
+    &:hover {
+      background: #000000;
+      border: 1px solid #000000;
+      transition: all 1s ease;
+      color: #fff;
+      
+    }
+  }
+}

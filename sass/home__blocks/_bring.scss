@@ -1,0 +1,38 @@
+.bring {
+  background-color: #fff;
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    gap: 125px;
+    margin: 100px 0;
+  }
+  &__title {
+    font-family: sans-serif;
+    width: 445px;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000000;
+  }
+  &__coral {
+    color: #d87d4a;
+  }
+
+  &__text {
+    padding-top: 35px;
+    width: 450px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+  &__img
+  {
+    border-radius: 10px;
+  }
+}

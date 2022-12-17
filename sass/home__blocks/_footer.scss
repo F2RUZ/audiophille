@@ -1,0 +1,41 @@
+.footer {
+
+  background-color: rgb(19, 18, 18);
+
+
+  &__navbar {
+    border: none;
+  }
+
+  &__content {
+    display: flex;
+    gap: 470px;
+  }
+
+  &__text {
+    width: 540px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+
+  &__media {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 70px;
+  }
+
+  &__copyright {
+    padding-top: 60px;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #ffffff;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+  }
+}

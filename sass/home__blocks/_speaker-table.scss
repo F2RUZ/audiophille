@@ -1,0 +1,28 @@
+.spaeker-table {
+  background-color: #fff;
+
+  &__wrapper {
+    background-image: url(/rasmlar/speaker__Bitmap.png);
+    background-size: cover;
+    height: 320px;
+  }
+
+  &__left {
+    max-width: 204px;
+    padding: 100px;
+  }
+
+  &__title {
+    padding-bottom: 40px;
+    max-width: 204px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+    color: #000000;
+  }
+
+
+}
