@@ -4,7 +4,9 @@
   &__wrapper {
     background-image: url(/rasmlar/speaker__Bitmap.png);
     background-size: cover;
+    width: 1110px;
     height: 320px;
+    border-radius: 10px;
   }
 
   &__left {
@@ -23,6 +25,21 @@
 
     color: #000000;
   }
+}
 
-
+@media only screen and (max-width: 768px) {
+  .spaeker-table {
+    &__wrapper {
+      position: relative;
+      right: 120px;
+      bottom: 100px;
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 680px;
+      height: 320px;
+      border-radius: 10px;
+    }
+ 
+  }
 }

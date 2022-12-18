@@ -1,15 +1,13 @@
 .intro {
   background-color: rgb(19, 18, 18);
+
   // background-image: url(/rasmlar/home__bitmap.png);
 
   &__wrapper {
-    width: 1440px;
-    height: 500px;
     display: flex;
     align-items: center;
     gap: 150px;
   }
-
 
   &__product {
     font-weight: 400;
@@ -21,7 +19,6 @@
     mix-blend-mode: normal;
     opacity: 0.5;
   }
-
 
   &__title {
     max-width: 400px;
@@ -58,6 +55,43 @@
     &:hover {
       background: #fbaf85;
       transition: all 0.5s ease;
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .intro {
+    &__wrapper {
+      flex-direction: column;
+      gap: 0;
+      background-image: url(/rasmlar/noushnik.png);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    &__right {
+      display: none;
+    }
+ 
+    &__left {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+    &__product {
+      font-size: 14px;
+      line-height: 19px;
+    }
+    &__title {
+      max-width: 377px;
+      font-size: 50px;
+      line-height: 50px;
+    }
+    &__text {
+      max-width: 340px;
+      font-size: 15px;
+      line-height: 25px;
+      padding-bottom: 40px;
     }
   }
 }

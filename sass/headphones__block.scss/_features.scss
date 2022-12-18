@@ -40,3 +40,20 @@
     color: #d87d4a;
   }
 }
+
+@media only screen and (max-width:768px){
+  .features{
+
+
+    &__wrapper
+    {
+      position: relative;
+      right: 120px;
+      flex-direction: column;
+      gap: 100px;
+      width: 680px;
+     
+    }
+ 
+  }
+}

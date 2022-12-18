@@ -31,8 +31,39 @@
     mix-blend-mode: normal;
     opacity: 0.5;
   }
-  &__img
-  {
+  &__img {
     border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .bring {
+    &__wrapper {
+      position: relative;
+      bottom: 150px;
+      flex-direction: column;
+      flex-direction: column-reverse;
+      
+      margin: 0;
+    }
+
+    &__img {
+      width: 680px;
+      height: 400px;
+    }
+    &__left
+    {
+      width: 573px;
+      text-align: center;
+    }
+
+    &__text
+    {
+      width: 573px;
+    }
+    &__title
+    {
+      width: 550px;
+    }
   }
 }

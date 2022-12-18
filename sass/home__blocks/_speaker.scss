@@ -2,8 +2,8 @@
   background-color: #fff;
 
   &__wrapper {
-    max-width: 1110px;
-    max-height: 560px;
+    width: 1110px;
+    height: 560px;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -33,12 +33,33 @@
     opacity: 0.75;
   }
 
-  &__btn
-  {
+  &__btn {
     background-color: #000;
 
-    &:hover{
-        background: #4C4C4C;
+    &:hover {
+      background: #4c4c4c;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .speaker {
+    &__wrapper {
+      position: relative;
+      right: 120px;
+      flex-direction: column;
+      text-align: center;
+      gap: 40px;
+      width: 680px;
+      height: 720px;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    &__img {
+      width: 200px;
     }
   }
 }

@@ -10,6 +10,8 @@
     }
     &__left
     {
+        background-image: url(/rasmlar/bring__Bitmap.png);
+        background-repeat: no-repeat;
         display: flex;
         flex-direction: column;
         gap: 32px;
@@ -18,4 +20,14 @@
     {
         border-radius: 10px;
     }
+}
+@media only screen and (max-width:768px){
+  .images{
+    display: none;
+
+    &__wrapper
+    {
+        width: 680px;
+    }
+  }
 }

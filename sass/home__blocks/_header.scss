@@ -1,5 +1,9 @@
 .header {
   background-color: rgb(19, 18, 18);
+
+  &__bar {
+    display: none;
+  }
   &__navbar {
     display: flex;
     align-items: center;
@@ -20,9 +24,25 @@
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #ffffff;
-    &:hover{
-        color: #D87D4A;
-        transition: all 0.8s linear;
+    &:hover {
+      color: #d87d4a;
+      transition: all 0.8s linear;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .header {
+    &__bar {
+      display: block;
+    }
+    &__navbar {
+      gap: 100px;
+      padding-bottom: 20px;
+    }
+
+    &__list {
+      display: none;
     }
   }
 }

@@ -16,10 +16,8 @@
     height: 204px;
     background: #f1f1f1;
     border-radius: 8px;
-    
   }
-  &__img
-  {
+  &__img {
     position: relative;
     top: -60px;
   }
@@ -51,5 +49,38 @@
     color: #000000;
     mix-blend-mode: normal;
     opacity: 0.5;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .headphone {
+    &__cards {
+      padding-top: 90px;
+      padding-bottom: 120px;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    &__card {
+      max-width: 230px;
+      padding: 50px;
+      
+    }
+
+    &__title {
+      width: 110px;
+      font-size: 15px;
+      line-height: 20px;
+    }
+
+    &__img {
+      
+    }
+
+    &__text {
+      font-size: 13px;
+      line-height: 18px;
+    }
   }
 }

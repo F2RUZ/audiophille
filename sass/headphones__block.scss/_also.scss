@@ -1,7 +1,7 @@
 .also {
   background-color: #fff;
 
-  &__wrapper{
+  &__wrapper {
     text-align: center;
   }
 
@@ -40,5 +40,25 @@
     color: #000000;
 
     color: #000000;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .also {
+    &__wrapper {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__cards {
+      gap: 11px;
+      align-items: center;
+    }
+
+    &__card {
+      width: 223px;
+      height: 320px;
+    }
   }
 }
