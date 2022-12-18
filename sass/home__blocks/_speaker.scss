@@ -63,3 +63,27 @@
     }
   }
 }
+
+@media only screen and (max-width: 412px) {
+  .speaker {
+    &__wrapper {
+      position: relative;
+      bottom: 100px;
+      text-align: center;
+      gap: 20px;
+      width: 330px;
+      height: 600px;
+    }
+
+    &__title {
+      width: 250px;
+      font-size: 36px;
+      line-height: 40px;
+    }
+    &__text {
+      width: 250px;
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+}

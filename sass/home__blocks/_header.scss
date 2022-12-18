@@ -46,3 +46,15 @@
     }
   }
 }
+
+@media only screen and (max-width: 412px) {
+  .header {
+    &__navbar {
+      position: relative;
+      right: 110px;
+      gap: 76px;
+      border: none;
+    }
+  }
+}
+

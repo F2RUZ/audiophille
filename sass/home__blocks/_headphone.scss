@@ -65,7 +65,6 @@
     &__card {
       max-width: 230px;
       padding: 50px;
-      
     }
 
     &__title {
@@ -74,13 +73,23 @@
       line-height: 20px;
     }
 
-    &__img {
-      
-    }
-
     &__text {
       font-size: 13px;
       line-height: 18px;
+    }
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .headphone {
+    &__cards {
+      flex-direction: column;
+      gap: 80px;
+    }
+
+    &__card {
+      max-width: 330px;
+      height: 204px;
     }
   }
 }

@@ -71,7 +71,7 @@
     &__right {
       display: none;
     }
- 
+
     &__left {
       display: flex;
       flex-direction: column;
@@ -92,6 +92,23 @@
       font-size: 15px;
       line-height: 25px;
       padding-bottom: 40px;
+    }
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .intro {
+
+    &__title {
+      width: 377px;
+      font-size: 36px;
+      line-height: 40px;
+    }
+    &__left
+    {
+      background-image: url(/rasmlar/noushnik.png);
+      background-size: cover;
+      background-position: center center;
     }
   }
 }

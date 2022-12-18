@@ -70,3 +70,41 @@
     }
   }
 }
+@media only screen and (max-width: 412px) {
+  .footer {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__navbar {
+      position: relative;
+      left: 100px;
+      flex-direction: column;
+      align-items: center;
+    }
+    &__list {
+      flex-direction: column;
+      margin: 0;
+      gap: 10px;
+    }
+    &__media {
+      top: 50px;
+      left: 105px;
+    }
+    &__text {
+      position: relative;
+      left: -12px;
+      width: 330px;
+      text-align: center;
+    }
+    &__content {
+      flex-direction: column;
+    }
+    &__copyright {
+      position: relative;
+      bottom: 130px;
+      width: 320px;
+      left:25px;
+    }
+  }
+}

@@ -40,6 +40,24 @@
       height: 320px;
       border-radius: 10px;
     }
- 
+  }
+}
+
+@media only screen and (max-width: 412px) {
+  .spaeker-table {
+    &__wrapper {
+      background-position: right right;
+      background-size: cover;
+      background-repeat: no-repeat;
+      width: 330px;
+      height: 320px;
+    }
+
+    &__left {
+      width: 304px;
+      max-height: 118px;
+      padding: 99px 101px 99px 24px;
+    }
+
   }
 }
