@@ -14,7 +14,6 @@
     gap: 125px;
   }
 
-
   &__left {
     display: flex;
     align-items: center;
@@ -96,6 +95,26 @@
     }
     &__text {
       max-width: 570px;
+    }
+  }
+}
+@media only screen and (max-width: 425px) {
+  .mark {
+    &__right {
+      width: 330px;
+    }
+    &__left {
+      width: 330px;
+      height: 330px;
+    }
+    &__title {
+      max-width: 330px;
+    }
+    &__text {
+      width: 330px;
+    }
+    &__img {
+      width: 200px;
     }
   }
 }

@@ -26,6 +26,22 @@
     color: #000000;
   }
 }
+@media only screen and (max-width: 1024px) {
+  .spaeker-table {
+    &__wrapper {
+      position: relative;
+      right: 120px;
+      bottom: 100px;
+      top: 20px;
+      background-position: center center;
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 950px;
+      height: 320px;
+      border-radius: 10px;
+    }
+  }
+}
 
 @media only screen and (max-width: 768px) {
   .spaeker-table {
@@ -43,13 +59,13 @@
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 425px) {
   .spaeker-table {
     &__wrapper {
       background-position: right right;
       background-size: cover;
       background-repeat: no-repeat;
-      width: 330px;
+      width: 333px;
       height: 320px;
     }
 

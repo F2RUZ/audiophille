@@ -58,6 +58,16 @@
     }
   }
 }
+
+@media only screen and (max-width:1024px){
+  .intro{
+    &__wrapper
+    {
+      gap: 0;
+      background-size: contain;
+    }
+  }
+}
 @media only screen and (max-width: 768px) {
   .intro {
     &__wrapper {
@@ -96,7 +106,7 @@
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 425px) {
   .intro {
 
     &__title {

@@ -42,6 +42,27 @@
   }
 }
 
+@media only screen and (max-width: 1024px) {
+  .speaker {
+    &__wrapper {
+      position: relative;
+      right: 120px;
+      text-align: center;
+      gap: 40px;
+      width: 950px;
+      height: 720px;
+    }
+    &__text {
+      font-size: 15px;
+      line-height: 25px;
+    }
+
+    &__img {
+      width: 400px;
+    }
+  }
+}
+
 @media only screen and (max-width: 768px) {
   .speaker {
     &__wrapper {
@@ -64,13 +85,14 @@
   }
 }
 
-@media only screen and (max-width: 412px) {
+@media only screen and (max-width: 425px) {
   .speaker {
     &__wrapper {
       position: relative;
       bottom: 100px;
       text-align: center;
       gap: 20px;
+      left: -115px;
       width: 330px;
       height: 600px;
     }
